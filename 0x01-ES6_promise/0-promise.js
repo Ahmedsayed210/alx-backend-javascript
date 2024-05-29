@@ -1,10 +1,3 @@
-function getResponseFromAPI() {
-  return new Promise((accept, reject) => {
-    let api = true;
-    if (api) {
-      accept("good");
-    } else {
-      reject("Not-good");
-    }
-  });
+export default function getResponseFromAPI() {
+  return (new Promise((resolve, reject) => {}));
 }
